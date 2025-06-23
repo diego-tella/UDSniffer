@@ -11,3 +11,6 @@ cd UDSniffer/
 chmod +x UDSniffer.sh
 ./UDSniffer.sh docker
 ```
+
+# Unix Domain Sockets
+![image](https://github.com/user-attachments/assets/de2c0c8f-2b52-4208-8791-051c7540675d)
