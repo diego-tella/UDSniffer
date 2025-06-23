@@ -95,14 +95,14 @@ case "$1" in
         sniff_docker
         ;;
     mysql)
-    		sniff_mysqld
-    		;;
+    	sniff_mysqld
+    	;;
     all)
-    		sniff_docker &
-    		sniff_mysqld &
-    		wait
-    		;;
-	  *)
+    	sniff_docker &
+    	sniff_mysqld &
+    	wait
+    	;;
+     *)
          help_menu
           exit 1
           ;;
